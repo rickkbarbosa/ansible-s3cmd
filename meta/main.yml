@@ -1,0 +1,7 @@
+galaxy_info:
+  author: Rickk Barbosa (https://github.com/rickkbarbosa)
+  description: Installs S3cmd and prepares configfile
+  company: NubeliU (nubeliu.com)
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 2.3
+  dependencies: []

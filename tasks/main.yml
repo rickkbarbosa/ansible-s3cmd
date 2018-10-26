@@ -1,0 +1,13 @@
+---
+- name: Ensure S3cmd package are installed.
+  package:
+    name: s3cmd
+    state: present
+
+- name: Add s3cfg config file
+  template:
+    src: s3cfg.j2
+    dest: /root/.s3cfg
+    owner: root
+    group: root
+    mode: 0644
